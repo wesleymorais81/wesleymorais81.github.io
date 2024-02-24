@@ -1,861 +1,662 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Renessa</title>
+<html lang="en" class="no-js" >
+<head>
 
-		<!-- meta -->
-		<meta charset="UTF-8">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Monica</title>
 
-	    <!-- css -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/ionicons.min.css">
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/owl.carousel.css">
-		<link rel="stylesheet" href="css/owl.theme.css">
-		<link rel="stylesheet" href="css/owl.transitions.css">
-	    <link rel="stylesheet" href="css/animate.css">
-	    <link rel="stylesheet" href="css/custom.css">
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
 
-	    <!-- js -->
-	    <script src="js/jquery.min.js"></script>
-	    <script src="js/bootstrap.min.js"></script>
-	    <script src="js/owl.carousel.min.js"></script>
-	    <script src="js/isotope.pkgd.min.js"></script>
-		<script src="js/script.js"></script>
-		<script src="js/wow.min.js"></script>
-		<script src="js/jquery.actual.min.js"></script>
-	</head>
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
 
-	<body>
-		<div id="wrapper">
-			<div id="overlay-1">
-				<section id= "navigation">
-					<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-	  					<div class="container-fluid">
-	    					<div class="navbar-header">
-	      						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					        		<span class="ion-navicon"></span>
-					      		</button>
-					      		<a class="navbar-brand" href="#">Wesley Morais</a>
-					    	</div>
-	    					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      					<ul class="nav navbar-nav navbar-right">
-		      						<li><a href="#about">About Us</a></li>
-		      						<li><a href="#our_service">Service</a></li>
-		        					<li><a href="#team">Team</a></li>
-		        					<li><a href="#portfolio">Portfolio</a></li>
-		        					<li><a href="#price_table">Price Table</a></li>
-		        					<li><a href="#blog">Blog</a></li>
-		        					<li><a href="#testimonial">Testimonials</a></li>
-		        					<li><a href="#contact">Contact us</a></li>
-							    </ul>
-	    					</div>	<!-- collapse navbar-collapse -->
-	  					</div>	<!-- container-fluid -->
-					</nav>	<!-- navbar -->
-				</section>	<!-- #navigation -->
-				<section id="starting">
-					<div class="text-center starting-text">
-						<h1 class="rene">Wesley Morais</h1>
-						<h2>Welcome to my world</h2>
-					</div>
-				</section>
-				<div id="bottom" class="bottom text-center">
-			        <a href="#about"><i class="ion-ios7-arrow-down"></i></a>
-			    </div>
-			</div><!-- overlay-1 -->
-		</div>	<!-- wrapper -->		
-			
-		<!-- About Us -->
-		<section id="about">
-			<div class="container">
-				<div class="row text-center" id="heading">
-					<div class="col-md-6 col-md-offset-3 wow animated zoomInDown" id="heading-text">
-						<h3>About Us</h3>
-	                	<p>We are here, Nothing to fear</p>
-	                	<hr class="full">
-	                	<br/>
-					</div>
-				</div>	<!-- row -->
-				<div class="row about-us-text">
-					<div class="col-md-8 col-md-offset-2">
-						<p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-					</div>
-				</div>	<!-- row -->
-				<div class="row main_content">
-					<div class="col-md-4 wow animated zoomIn" data-wow-delay="0.1s">
-						<figure>
-							<img class="pro img-responsive center-block" src="img/3-col-icons-web.png">
-						</figure>
-						<h5 class="text-center">Web Development</h5>
-						<div class="row">
-							<div class="col-xs-12 text-center" style="border-right: 1px solid #f4f4f4">
-                                <div style="display: inline; width: 60px; height: 60px;">
-                                    <input type="text" class="knob" data-readonly="true" value="90" data-width="60" data-height="60" data-fgcolor="#39CCCC" readonly="readonly" style="width: 34px; height: 20px; position: absolute; vertical-align: middle; margin-top: 20px; margin-left: -47px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Arial; text-align: center; /* color: rgb(57, 204, 204); */ padding: 0px; -webkit-appearance: none; background: none;">
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+
+<body id="top">
+
+    
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap ss-home">
+
+
+        <!-- # site header 
+        ================================================== -->
+        <header class="s-header">
+
+            <div class="row s-header__inner width-sixteen-col">
+
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="index.html">
+                            <img src="images/logo.svg" alt="Homepage">
+                        </a>
+                    </div>
+
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> <!-- end s-header__block -->
+
+                <nav class="s-header__nav">
+    
+                    <ul class="s-header__menu-links">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="blog.html">Journal</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul> <!-- s-header__menu-links -->
+
+                    <div class="s-header__contact">
+                        <a href="contact.html" class="btn btn--primary s-header__contact-btn">Let's Work Together</a>                        
+                    </div> <!-- s-header__contact -->
+    
+                </nav> <!-- end s-header__nav -->
+
+            </div> <!-- end s-header__inner -->
+
+        </header> <!-- end s-header -->
+
+
+        <!-- # site main content
+        ================================================== -->
+        <section id="content" class="s-content">
+
+            <!-- intro
+            ----------------------------------------------- -->
+            <section id="intro" class="s-intro">
+
+                <div class="row s-intro__content width-sixteen-col">
+
+                    <div class="column lg-12 s-intro__content-inner grid-block">
+                        
+                        <div class="s-intro__content-text">
+                            <div class="s-intro__content-pretitle text-pretitle">Hello, I'm Monica</div>
+                            <h1 class="s-intro__content-title">
+                            I create marketing <br>
+                            strategies for your <br>
+                            business that get <br>
+                            results.
+                            </h1>
+                        </div> <!-- s-intro__content-text -->
+
+                        <div class="s-intro__content-media"> 
+                            <div class="s-intro__content-media-inner">                               
+                                <img src="images/intro-bg.jpg" srcset="images/intro-bg.jpg 1x, images/intro-bg@2x.jpg 2x" alt="">
+                                <div class="lines">                               
+                                    <span></span>                                  
                                 </div>
-                            </div>	<!-- col-xs-12 -->
-						</div>	<!-- row -->
-					</div>	<!-- col-md-4 -->
+                            </div>
+                        </div> <!-- s-intro__content-media -->                      
 
-					<div class="col-md-4 wow animated zoomIn" data-wow-delay="0.1s">
-						<figure>
-							<img class="pro img-responsive center-block" src="img/3-col-icons-android.png">
-						</figure>
-						<h5 class="text-center">Android Development</h5>
-						<div class="row">
-							<div class="col-xs-12 text-center" style="border-right: 1px solid #f4f4f4">
-	                            <div style="display: inline; width: 60px; height: 60px;">  	
-	                            	<input type="text" class="knob" data-readonly="true" value="80" data-width="60" data-height="60" data-fgcolor="#39CCCC" readonly="readonly" style="width: 34px; height: 20px; position: absolute; vertical-align: middle; margin-top: 20px; margin-left: -47px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Arial; text-align: center; /* color: rgb(57, 204, 204); */ padding: 0px; -webkit-appearance: none; background: none;">
-	                            </div>
-	                        </div>	<!-- col-xs-12 -->
-						</div>	<!-- row -->
-					</div>	<!-- col-md-4 -->
+                        <div class="s-intro__scroll-down">
+                            <a href="#about" class="smoothscroll">
+                                <div class="scroll-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#97b34a" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<polyline points="7 13 12 18 17 13"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
+                                </div>
+                                <span>Scroll for more</span>
+                            </a>
+                        </div> <!-- s-intro__scroll-down -->
+                        
+                    </div> <!-- s-intro__content-inner -->
 
-					<div class="col-md-4 wow animated zoomIn" data-wow-delay="0.1s">
-						<figure>
-							<img class="pro img-responsive center-block" src="img/3-col-icons-iphone.png">
-						</figure>
-						<h5 class="text-center">iOS Development</h5>
-						<div class="row">
-							<div class="col-xs-12 text-center" style="border-right: 1px solid #f4f4f4">
-	                            <div style="display: inline; width: 60px; height: 60px;">
-	                                <input type="text" class="knob" data-readonly="true" value="75" data-width="60" data-height="60" data-fgcolor="#39CCCC" readonly="readonly" style="width: 34px; height: 20px; position: absolute; vertical-align: middle; margin-top: 20px; margin-left: -47px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Arial; text-align: center; /* color: rgb(57, 204, 204); */ padding: 0px; -webkit-appearance: none; background: none;">
-	                        	</div>	
-	                    	</div>	<!-- col-xs-12 -->
-						</div>	<!-- row -->
-					</div>	<!-- col-md-4 -->
-				</div><!-- row main_content -->
-			</div>	<!-- container -->
-		</section>	<!-- about us -->
+                </div> <!-- s-intro__content -->
 
-		<!-- Our service -->
-		<section id="our_service">
-			<div class="container">
-				<div class="row text-center" id= "heading">
-	        		<div class="col-md-6 col-md-offset-3 wow animated zoomInDown" id= "heading-text">
-	        			<h3>Our Services</h3>
-	                	<p>We are lucky to service people like you</p>
-	                	<hr class= "full">
-	                	<br/>
-	        		</div>
-		        </div>
-			    <div class="main_content">
-				    <div class="services">
-			        	<div class="row">
-			        		<div class="col-sm-4 service">
-			        			<div class="service-icon text-center">
-			        				<i class="fa fa-code fa-5x"></i>
-			        			</div>
-			        			<div class="about-service">
-			        				<h3 class="text-center">Web Application</h3>
-			        				<p class="text-center">
-			        					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			                       		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			                       		quis nostrud 
-			        				</p>
-			        			</div>
-			        		</div>	<!-- col-sm-4 -->
-			        		<div class="col-sm-4 service">
-			        			<div class="service-icon text-center">
-			        				<i class="fa fa-desktop fa-5x"></i>
-			        			</div>
-			        			<div class="about-service">
-			        				<h3 class="text-center">Web designing</h3>
-			        				<p class="text-center">
-			        					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			                       		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			                       		quis nostrud 
-			        				</p>
-			        			</div>
-			        		</div>	<!-- col-sm-4 -->
-			        		<div class="col-sm-4 service">
-			        			<div class="service-icon text-center">
-			        				<i class="fa fa-th fa-5x"></i>
-			        			</div>
-			        			<div class="about-service">
-			        				<h3 class="text-center">Graphics Designing</h3>
-			        				<p class="text-center">
-			        					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			                       		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			                       		quis nostrud 
-			        				</p>
-			        			</div>
-			        		</div>	<!-- col-sm-4 -->
-			        	</div>	<!-- row -->
-			        	<div class="row">
-			        		<div class="col-sm-4 service">
-			        			<div class="service-icon text-center">
-			        				<i class="fa fa-gamepad fa-5x"></i>
-			        			</div>
-			        			<div class="about-service">
-			        				<h3 class="text-center">Game Development</h3>
-			        				<p class="text-center">
-			        					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			                       		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			                       		quis nostrud 
-			        				</p>
-			        			</div>
-			        		</div>	<!-- col-sm-4 -->
-			        		<div class="col-sm-4 service">
-			        			<div class="service-icon text-center">
-			        				<i class="fa fa-lightbulb-o fa-5x"></i>
-			        			</div>
-			        			<div class="about-service">
-			        				<h3 class="text-center">Creative Ideas</h3>
-			        				<p class="text-center">
-			        					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			                       		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			                       		quis nostrud 
-			        				</p>
-			        			</div>
-			        		</div>	<!-- col-sm-4 -->
-			        		<div class="col-sm-4 service">
-			        			<div class="service-icon text-center">
-			        				<i class="fa fa-stack-overflow fa-5x"></i>
-			        			</div>
-			        			<div class="about-service">
-			        				<h3 class="text-center">Support</h3>
-			        				<p class="text-center">
-			        					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			                       		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			                       		quis nostrud 
-			        				</p>
-			        			</div>
-			        		</div>	<!-- col-sm-4 -->
-			        	</div>	<!-- row -->
-					</div>	<!-- services -->
-				</div>	<!-- main_content -->
-			</div>	<!-- container -->
-		</section>	<!-- our_service -->
+            </section> <!-- end s-intro -->
 
-		<!-- Our Team -->
-	    <section id="team">
-	    	<div class="container">
-		    	<div class="team-members">
-		    		<div class="row text-center" id="heading">
-		    			<div class="col-md-6 col-md-offset-3 wow animated zoomInDown" id="heading-text">
-		        			<h3>Our Team</h3>
-		                	<p>We can satisfy your demand</p>
-		                	<hr class="full">
-		                	<br/>
-		        		</div>
-		    		</div>
-			    	<div class="row main_content">
-				    	<div class="col-md-4 col-sm-6 text-center">
-				    		<div class="row wow animated zoomIn" data-wow-delay="0.1s">
-				    			<div class="col-md-8 col-md-offset-2">
-				    				<img class="img-circle img-responsive center-block" src="img/Syed-Rezwanul-Haque.jpg" alt="Syed Rezwanul Haque Rubel">
-				    			</div>
-				    		</div>
-				        	<h4 class="wow animated fadeInUp" data-wow-delay= "0.2s">Syed Rezwanul Haque Rubel</h4>
-				        	<p class= "member-title wow animated fadeIn" data-wow-delay= "0.3s">Project Manager</p>
-				        	<p class= "team-member-description wow animated fadeIn" data-wow-delay= "0.4s">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna hifd.</p>
-				        	<div class= "row text-center wow animated fadeInDown" data-wow-delay= "0.5s">
-				        		<div class= "team-member-contact">
-				        			<a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
-				        				<i class="fa fa-facebook"></i>
-				        			</a>
-				        		
-				        			<a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
-				        				<i class="fa fa-twitter"></i>
-				        			</a>
-				        		
-				        			<a href="#" data-toggle="tooltip" title="Contact with Google-plus"class= "team-google-plus">
-				        				<i class="fa fa-google-plus"></i>
-				        			</a>
-				        		</div>	
-				        	</div>
-				    	</div>	<!-- col-md-4 -->
-				    	<div class="col-md-4 col-sm-6 text-center">
-				    		<div class= "row wow animated zoomIn" data-wow-delay="0.6s">
-				    			<div class= "col-md-8 col-md-offset-2">
-				    				<img class="img-circle img-responsive center-block" src="img/Shahjahan-Jewel.jpg" alt= "Shahjahan Jewel" >
-				    			</div>
-				    		</div>
-				        	<h4 class= "wow animated fadeInUp" data-wow-delay= "0.7s">Shahjahan Jewel</h4>
-				        	<p class= "member-title wow animated fadeIn" data-wow-delay= "0.8s">Head Of Ideas</p>
-				        	<p class= "team-member-description wow animated fadeIn" data-wow-delay= "0.9s">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-				        	<div class= "row text-center wow animated fadeInDown" data-wow-delay= "0.5s">	
-				        		<div class= "team-member-contact">
-				        			<a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
-				        				<i class="fa fa-facebook"></i>
-				        			</a>
-				        			<a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
-				        				<i class="fa fa-twitter"></i>
-				        			</a>
-				        			<a href="#" data-toggle="tooltip" title="Contact with Google-plus"class= "team-google-plus">
-				        				<i class="fa fa-google-plus"></i>
-				        			</a>
-				        		</div>
-				        	</div>
-				    	</div>	<!-- col-md-4 -->
-				    	<div class="col-md-4 col-sm-6 text-center">
-				    		<div class= "row wow animated zoomIn" data-wow-delay="1.1s">
-				    			<div class="col-md-8 col-md-offset-2">
-				    				<img class="img-circle img-responsive center-block" src="img/nathan.jpg" alt= "Nathan Thomas Paul" >
-				    			</div>
-				    		</div>
-				        	<h4 class="wow animated fadeInUp" data-wow-delay= "1.2s">Nathan Thomas Paul</h4>
-				        	<p class= "member-title wow animated fadeIn" data-wow-delay= "1.3s">Client Relations Manager</p>
-				        	<p class= "team-member-description wow animated fadeIn" data-wow-delay= "1.4s">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum.</p>
-				        	<div class= "row text-center wow animated fadeInDown" data-wow-delay= "0.5s">	
-				        		<div class= "team-member-contact">
-				        			<a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
-				        				<i class="fa fa-facebook"></i>
-				        			</a>
-				        		
-				        			<a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
-				        				<i class="fa fa-twitter"></i>
-				        			</a>
-				        		
-				        			<a href="#" data-toggle="tooltip" title="Contact with Google-plus"class= "team-google-plus">
-				        				<i class="fa fa-google-plus"></i>
-				        			</a>
-				        		</div>
-				        	</div>
-				      	</div>	<!-- col-md-4 -->
-			    	</div> <!-- row main_content -->
-			    </div>	<!-- team-members -->
-			</div>	<!-- container -->
-	    </section>	<!-- team -->
+            <!-- about
+            ----------------------------------------------- -->
+            <section id="about" class="s-about target-section">
 
-		<!-- Portfolio -->
-	    <section id="portfolio">
-	    	<div class="container">
-	    		<div class="row text-center" id="heading">
-	    			<div class="col-md-6 col-md-offset-3 wow animated zoomInDown" id="heading-text">
-	        			<h3>Our Works</h3>
-	                	<p>Take a look, Taste our cook</p>
-	                	<hr class= "full">
-	                	<br/>
-	        		</div>
-	    		</div>
-	    		<div class="main_content">
-		    		<div class="row port">
-		    			<div class="col-md-8 col-md-offset-2 text-center button-group" id="filters">
-		    				<button type="button" class="btn btn-default is-checked" data-filter="*">All</button>
-		    				<button type="button" class="btn btn-default" data-filter=".web">Web Design</button>
-		    				<button type="button" class="btn btn-default" data-filter=".game">Game</button>
-		    				<button type="button" class="btn btn-default" data-filter=".app">App</button>
-		    			</div>
-		    		</div>	<!-- row -->
-		    		<div class="row">
-		    			<div class="isotope" id="port-items">
-		    				<div class="col-md-4 col-sm-6 col-xs-6 element-item web" data-category="web">
-		    					<img class="img-responsive" src="img/web-design-1.jpg" >
-		    				</div>
-		    				<div class="col-md-4 col-sm-6 col-xs-6 element-item game" data-category="game">
-		    					<img class="img-responsive" src="img/game-2.jpg">
-		    				</div>
-		    				<div class="col-md-4 col-sm-6 col-xs-6 element-item app" data-category="app">
-		    					<img class="img-responsive" src="img/app-1.jpg">
-		    				</div>
-		    				<div class="col-md-4 col-sm-6 col-xs-6 element-item web" data-category="web">
-		    					<img class="img-responsive" src="img/web-design-2.jpg">
-		    				</div>
-		    				<div class="col-md-4 col-sm-6 col-xs-6 element-item game" data-category="game">
-		    					<img class="img-responsive" src="img/game-1.jpg">
-		    				</div>
-		    				<div class="col-md-4 col-sm-6 col-xs-6 element-item app" data-category="app">
-		    					<img class="img-responsive" src="img/app-2.jpg">
-		    				</div>
-		    				<div class="col-md-4 col-sm-6 col-xs-6 element-item web" data-category="web">
-		    					<img class="img-responsive" src="img/web-design-3.jpg">
-		    				</div>
-		    				<div class="col-md-4 col-sm-6 col-xs-6 element-item game" data-category="game">
-		    					<img class="img-responsive" src="img/game-3.jpg">
-		    				</div>
-		    				<div class="col-md-4 col-sm-6 col-xs-6 element-item app" data-category="app">
-		    					<img class="img-responsive" src="img/app-3.jpg">
-		    				</div>
-		    			</div>	<!-- isotope -->
-		    		</div>	<!-- row -->
-	    		</div>	<!-- main_content -->
-	    	</div>	<!-- container -->
-	    </section>	<!-- portfolio -->
-		
-		<!-- Price-Table -->
-	    <section id="price_table">
-	    	<div class="container">
-	    		<div class="row text-center" id="heading">
-	    			<div class="col-md-6 col-md-offset-3 wow animated zoomInDown" id="heading-text">
-	        			<h3>Price Table</h3>
-	                	<p>So flexible, More comfortable</p>
-	                	<hr class="full">
-	                	<br/>
-	        		</div>
-	    		</div>	<!-- row -->
-	    		<div class="row main_content">
-	    			<ul class="price-table-chart">
+                <div class="row s-about__content width-sixteen-col">
+                    <div class="column grid-block grid-section-split">
+
+                        <img src="images/geometric_shape.svg" alt="" class="s-about__content-imgbg">
+
+                        <div class="section-header grid-section-split__header">
+                            <div class="text-pretitle">About</div>                           
+                            <h2 class="text-display-title">
+                            An inspiring headline about yourself.
+                            </h2>                           
+                        </div> <!-- end section-header -->
+
+                        <div class="s-about__content-main grid-section-split__primary">
+                            <p class="attention-getter">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Repellendus iste ipsam quod repellat. Hic tempora ullam aperiam 
+                            ipsum optio magni vel inventore voluptatibus nisi maiores laboriosam 
+                            fuga iure, velit eligendi ab vero minima? Quae ducimus ab dignissimos 
+                            iure, eos consequatur est deleniti cum id aliquid neque.
+                            </p>
+
+                            <p class="attention-getter">
+                            Autem tenetur commodi maiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit.  
+                            Est eligendi fugit, facilis velit reiciendis iure laudantium. Praesentium repellat 
+                            corrupti dolor sit sint obcaecati. Modi aut quo molestiae a explicabo maiores necessitatibus 
+                            nemo repellendus architecto? Corrupti numquam ullam nostrum, eveniet at doloribus blanditiis 
+                            aliquid a est porro aspernatur pariatur culpa soluta nesciunt odio quasi maxime debitis illum.
+                            </p>
+
+                            <p class="attention-getter">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Repellendus iste ipsam quod repellat. Hic tempora ullam aperiam 
+                            ipsum optio magni vel inventore voluptatibus nisi maiores laboriosam 
+                            fuga iure, velit eligendi ab vero minima? Quae ducimus ab dignissimos 
+                            iure, eos consequatur est deleniti cum id aliquid neque.
+                            </p>
+                        </div> <!-- end s-about__content-main -->
+
+                        <div class="s-about__content-btn grid-section-split__bottom">
+                            <a href="about.html" class="btn btn--stroke u-fullwidth">More About Me</a>
+
+                            <ul class="s-about__social social-list">
+                                <li>
+                                    <a href="#0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
+                                        <span class="u-screen-reader-text">Facebook</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05 c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032 c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22 c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"></path></svg>
+                                        <span class="u-screen-reader-text">Twitter</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"></path></svg>
+                                        <span class="u-screen-reader-text">Instagram</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M20.66 6.98a9.932 9.932 0 0 0-3.641-3.64C15.486 2.447 13.813 2 12 2s-3.486.447-5.02 1.34c-1.533.893-2.747 2.107-3.64 3.64S2 10.187 2 12s.446 3.487 1.34 5.02a9.924 9.924 0 0 0 3.641 3.64C8.514 21.553 10.187 22 12 22s3.486-.447 5.02-1.34a9.932 9.932 0 0 0 3.641-3.64C21.554 15.487 22 13.813 22 12s-.446-3.487-1.34-5.02zM12 3.66c2 0 3.772.64 5.32 1.919-.92 1.174-2.286 2.14-4.1 2.9-1.002-1.813-2.088-3.327-3.261-4.54A7.715 7.715 0 0 1 12 3.66zM5.51 6.8a8.116 8.116 0 0 1 2.711-2.22c1.212 1.201 2.325 2.7 3.34 4.5-2 .6-4.114.9-6.341.9-.573 0-1.006-.013-1.3-.04A8.549 8.549 0 0 1 5.51 6.8zM3.66 12c0-.054.003-.12.01-.2.007-.08.01-.146.01-.2.254.014.641.02 1.161.02 2.666 0 5.146-.367 7.439-1.1.187.373.381.793.58 1.26-1.32.293-2.674 1.006-4.061 2.14S6.4 16.247 5.76 17.5c-1.4-1.587-2.1-3.42-2.1-5.5zM12 20.34c-1.894 0-3.594-.587-5.101-1.759.601-1.187 1.524-2.322 2.771-3.401 1.246-1.08 2.483-1.753 3.71-2.02a29.441 29.441 0 0 1 1.56 6.62 8.166 8.166 0 0 1-2.94.56zm7.08-3.96a8.351 8.351 0 0 1-2.58 2.621c-.24-2.08-.7-4.107-1.379-6.081.932-.066 1.765-.1 2.5-.1.799 0 1.686.034 2.659.1a8.098 8.098 0 0 1-1.2 3.46zm-1.24-5c-1.16 0-2.233.047-3.22.14a27.053 27.053 0 0 0-.68-1.62c2.066-.906 3.532-2.006 4.399-3.3 1.2 1.414 1.854 3.027 1.96 4.84-.812-.04-1.632-.06-2.459-.06z"></path></svg>
+                                        <span class="u-screen-reader-text">Dribbble</span>
+                                    </a>
+                                </li>
+                            </ul> <!-- end s-footer__social -->
+                        </div> <!-- end s-about__content-btn -->
+                    
+                    </div> <!-- content-inner -->
+                </div>
+                
+            </section> <!-- end s-about -->
+
+            <!-- expertise
+            ----------------------------------------------- -->
+            <section id="expertise" class="s-expertise">
+
+                <div class="row s-expertise__content width-sixteen-col">
+                    <div class="column xl-12 grid-block grid-section-split">
+
+                        <div class="section-header grid-section-split__header">
+                            <div class="text-pretitle">Expertise</div>                           
+                            <h2 class="text-display-title">
+                            My key areas of expertise.
+                            </h2>     
+                            
+                            <p class="lead">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit debitis quam dignissimos veritatis atque pariatur magnam obcaecati fugit reprehenderit vel numquam facere esse est deserunt, perferendis commodi voluptatem similique.
+                            </p>
+                        </div> <!-- end section-header -->
+
+                        <div class="s-expertise__content-main grid-section-split__primary">
+
+                            <div class="grid-list-items list-items show-ctr">
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title">Digital Marketing</h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p>
+                                        Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores 
+                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
+                                        magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                        </p>
+                                    </div>
+                                </div> <!-- list-item -->
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title">Project Management</h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p>
+                                        Rerum quam quos. Quibusdam quis autem voluptatibus earum vel ex error ea magni. Aut asperiores 
+                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
+                                        magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                        </p>
+                                    </div>
+                                </div> <!-- list-expertise__item -->
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title">Content Marketing</h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p>
+                                        Eaque velit eligend. iQuibusdam quis autem voluptatibus earum vel ex error ea magni. 
+                                        Rerum quam quos. Aut asperiores sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. 
+                                        Eaque velit eligendi ut magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                        </p>
+                                    </div>
+                                </div> <!-- list-expertise__item -->
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title">Research & Discovery</h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p>
+                                        Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores 
+                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
+                                        magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                        </p>
+                                    </div>
+                                </div> <!-- list-expertise__item -->
+
+                            </div> <!-- grid-list-items -->
+                        </div> <!-- end s-expertise__content-main -->
+
+                        <div class="s-expertise__content-btn grid-section-split__bottom">
+                            <a href="services.html" class="btn btn--stroke u-fullwidth">View All Services</a>
+                        </div> <!-- end s-about__content-btn -->
+
+                    </div> <!-- end grid-block-->
+                </div> <!-- end s-expertise__content -->
+
+            </section> <!-- end s-expertise -->
+
+            <!-- clients
+            ----------------------------------------------- -->
+            <section id="clients" class="s-clients">          
+
+                <div class="row s-clients__content-block width-sixteen-col">
+                    <div class="column xl-12 grid-block grid-section-split">
+                    
+                        <div class="section-header grid-section-split__header">
+                            <div class="text-pretitle">Clients</div>                           
+                            <h2 class="text-display-title">
+                            I have had the privilege of working with these incredible brands.
+                            </h2>       
+                        </div> <!-- end section-header -->
+                    
+                        <div class="grid-section-split__primary">
+                            <p class="lead">
+                            Quibusdam quis autem voluptatibus earum vel ex error ea. Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Laborum suscipit debitis quam dignissimos veritatis atque pariatur magnam 
+                            obcaecati fugit reprehenderit vel numquam facere esse est deserunt, perferendis commodi voluptatem similique.
+                            </p>   
+
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, numquam molestiae vel quaerat quas 
+                            facilis voluptates rerum aspernatur quam voluptatem ea, vitae illo, omnis minus vero minima maiores 
+                            quia nihil incidunt provident debitis ab qui quasi. Iure unde numquam in nulla praesentium nesciunt 
+                            dolore exercitationem, odit expedita minima quisquam ullam ex. Aut perferendis vel consectetur modi esse.
+                            Temporibus reprehenderit alias magni atque repellat aspernatur voluptates, accusantium pariatur libero ad 
+                            nesciunt illum labore facere. Earum iure consequatur cumque omnis maiores optio.
+                            </p>
+                        </div> <!-- end grid-section-split__primary -->
+                    
+                    </div> <!-- end column -->
+                </div> <!-- end row -->
+
+                <div class="row s-clients__content-block width-sixteen-col">
+                    <div class="column xl-12">
+                    
+                        <div class="clients-list">                            
+                            <div class="clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/flash.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/rise.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/cactus.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/pinpoint.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/proline.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/vision.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="column clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/volume.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="column clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/hitech.svg" alt="">
+                                </a>
+                            </div><div class="clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/terra.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/chain.svg" alt="">
+                                </a>
+                            </div>
+                        </div> <!-- end clients-list -->
+
+                    </div> <!-- end column -->
+                </div> <!-- end row -->
+                                
+                <div class="row s-clients__content-block width-sixteen-col">
+                    <div class="column xl-12 testimonials">
+                    
+                        <div class="swiper-container testimonials__slider home-slider">
+
+                            <div class="swiper-wrapper">
+                                <div class="testimonials__slide swiper-slide">
+                                    <p>
+                                    Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
+                                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem nihil nostrum.
+                                    Laudantium quia consequatur molestias.
+                                    </p>
+                                    <div class="testimonials__author">
+                                        <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
+                                        <cite class="testimonials__cite">
+                                            <strong>John Rockefeller</strong>
+                                            <span>Standard Oil Co.</span>
+                                        </cite>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <p>
+                                    Nisi dolores quaerat fuga rem nihil nostrum. Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. 
+                                    Voluptas tempore rem. Laudantium quia consequatur molestias.
+                                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque.
+                                    </p>
+                                    <div class="testimonials__author">
+                                        <img src="images/avatars/user-04.jpg" alt="Author image" class="testimonials__avatar">
+                                        <cite class="testimonials__cite">
+                                            <strong>Andrew Carnegie</strong>
+                                            <span>Carnegie Steel Co.</span>
+                                        </cite>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <p>
+                                    Voluptas tempore rem. Molestiae incidunt consequatur quis ipsa autem nam sit enim magni.  
+                                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. 
+                                    Nisi dolores quaerat fuga rem nihil nostrum. Laudantium quia consequatur molestias.
+                                    </p>
+                                    <div class="testimonials__author">
+                                        <img src="images/avatars/user-06.jpg" alt="Author image" class="testimonials__avatar">
+                                        <cite class="testimonials__cite">
+                                            <strong>Henry Ford</strong>
+                                            <span>Ford Motor Co.</span>
+                                        </cite>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <p>
+                                    Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
+                                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem nihil nostrum.
+                                    Laudantium quia consequatur molestias.
+                                    </p>
+                                    <div class="testimonials__author">
+                                        <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
+                                        <cite class="testimonials__cite">
+                                            <strong>John Morgan</strong>
+                                            <span>JP Morgan & Co.</span>
+                                        </cite>
+                                    </div>
+                                </div> 
+                            </div> <!-- end swiper-wrapper --> 
+
+                            <div class="swiper-pagination"></div>
+
+                        </div> <!--end testimonials__slider -->                    
+                    
+                    </div> <!-- end column -->
+                </div> <!-- end row -->
+
+
+            </section> <!-- end s-clients -->            
+
+        </section> <!-- s-content-->
+
+        <!-- # cta
+        ================================================== -->
+        <section id="cta" class="s-cta">
+
+            <div class="row row-x-center text-center">
+                <div class="column xl-8 lg-12">
+
+                    <div class="s-cta__content">
+                        <h2 class="text-display-title">
+                        Get started with a consultation today.
+                        </h2>
+                        <p class="lead">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis rem, esse doloribus sint eaque at debitis enim vitae minus expedita ratione dignissimos sit nostrum optio sequi. Ipsa at beatae quam.
+                        </p>
+                        <a href="contact.html" class="btn btn--primary">Let's Work Together</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </section> <!-- end s-cta -->
+
+        <!-- # journal
+        ================================================== -->
+        <section id="journal" class="s-journal">
+
+            <div class="row s-journal__content width-sixteen-col">
+                <div class="column xl-12 grid-block">
+
+                    <div class="grid-full section-header text-center">
+                        <div class="text-pretitle">Recent Articles</div>                           
+                        <h2 class="text-display-title">
+                        Latest articles from my blog.
+                        </h2>  
+                    </div> <!-- end section-header --> 
+
+                    <div class="grid-full s-journal__content-main grid-list-items">
+
+                        <div class="grid-list-items__item blog-card">
+                            <div class="blog-card__header">
+                                <div class="blog-card__cat-links">
+                                    <a href="https://www.dreamhost.com/r.cgi?287326">Sponsored</a>
+                                </div>
+                                <h3 class="blog-card__title"><a href="https://www.dreamhost.com/r.cgi?287326">Need Web Hosting for Your Websites?</a></h3>
+                            </div>
+                            <div class="blog-card__text">
+                                <p>
+                                Need hosting for your website? We would highly recommend <a href="https://www.dreamhost.com/r.cgi?287326">DreamHost</a>.
+                                Enjoy 100% in-house support, guaranteed performance and uptime, 1-click installs, and a super-intuitive control 
+                                panel to make managing your websites and projects easy. <a href="https://www.dreamhost.com/r.cgi?287326">Sign up</a> now to get started.
+                                </p>
+                            </div>
+                        </div> <!-- end blog-card -->
+                        <div class="grid-list-items__item blog-card">
+                            <div class="blog-card__header">
+                                <div class="blog-card__cat-links">
+                                    <a href="blog.html">Productivity</a>
+                                </div>
+                                <h3 class="blog-card__title"><a href="single.html">5 Marketing Productivity Apps for Your Team</a></h3>
+                            </div>
+                            <div class="blog-card__text">
+                                <p>
+                                Rerum quam quos. Quibusdam quis autem voluptatibus earum vel ex error ea magni. Aut asperiores 
+                                sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
+                                magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                </p>
+                            </div>
+                        </div> <!-- end blog-card -->
+                        <div class="grid-list-items__item blog-card">
+                            <div class="blog-card__header">
+                                <div class="blog-card__cat-links">
+                                    <a href="blog.html">SEO</a>
+                                </div>
+                                <h3 class="blog-card__title"><a href="single.html">7 SEO Factors to Consider for Better Website Ranking</a></h3>
+                            </div>
+                            <div class="blog-card__text">
+                                <p>
+                                Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores 
+                                sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
+                                magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                </p>
+                            </div>
+                        </div> <!-- end blog card -->
+                        <div class="grid-list-items__item blog-card">
+                            <div class="blog-card__header">
+                                <div class="blog-card__cat-links">
+                                    <a href="blog.html">Productivity</a>
+                                </div>
+                                <h3 class="blog-card__title"><a href="single.html">5 Effective Web Design Principles</a></h3>
+                            </div>
+                            <div class="blog-card__text">
+                                <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ullam et laborum aperiam. 
+                                Dignissimos quae voluptatibus ullam esse sapiente fugiat, rerum labore cupiditate obcaecati 
+                                dolore necessitatibus id magni rem officia dolor nam sit laudantium. Quo eaque eveniet quibusdam unde. 
+                                </p>
+                            </div>
+                        </div> <!-- end blog-card -->
+
+                    </div> <!-- end grid-list-items -->
+
+                </div> <!-- end grid-block-->
+            </div> <!-- end s-journal__content -->
+
+        </section> <!-- end s-journal -->
+
+
+        <!-- # footer 
+        ================================================== -->
+        <footer class="s-footer">
+            <div class="row s-footer__content">
+                <div class="column xl-6 lg-6 md-12 s-footer__block s-footer__about">                    
+                    <h3>About Monica</h3>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illum quasi facere libero, 
+                    fugiat laboriosam possimus reprehenderit eveniet vero voluptatum fugit ad quis veritatis suscipit beatae 
+                    incidunt perferendis tempore earum hic repellendus quisquam recusandae ipsa id esse. Nobis, aut deleniti.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ratione dignissimos.
+                    </p>               
+                </div>                
+                <div class="column xl-3 lg-6 md-12 s-footer__block s-footer__site-links">
+                    <h3>Site Links</h3>
+                    <ul class="link-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="blog.html">Journal</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="https://www.dreamhost.com/r.cgi?287326">DreamHost</a></li>
+                    </ul>
+                </div>
+                <div class="column xl-3 lg-6 md-12 tab-12 s-footer__block s-footer__newsletter">
+                    <h3>Newsletter</h3>
+
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ratione dignissimos.
+                    </p>
+
+                    <div class="subscribe-form">
+                        <form id="mc-form" class="mc-form">
+                            <input type="email" name="EMAIL" id="mce-EMAIL" class="u-fullwidth text-center" placeholder="Your Email Address" title="The domain portion of the email address is invalid (the portion after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" required>
+                            <input type="submit" name="subscribe" value="Subscribe" class="btn btn--primary btn--small u-fullwidth">
+                            <!-- <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cdb7b577e41181934ed6a6a44_9a91cfe7b3" tabindex="-1" value=""></div> -->
+                            <div class="mc-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>    
+            
+            <div class="row s-footer__bottom">
+                <div class="column xl-6 lg-12">
+                    <ul class="s-footer__social social-list">
                         <li>
-		                    <a href="#">
-		                        <strong>Free</strong>
-		                        <span class="price_table-description">1 Website</span> 
-		                        <span class="price_table-description">1 Year Updates</span> 
-		                        <span class="price_table-description">No Email Support</span>
-		                        <big class="price_table-price">$0</big>
-		                        <span class="price_table-button">Buy Now</span>
-		                    </a>
-		                </li>
-		            
-		                <li>
-		                    <a href="#">
-		                        <strong>Business</strong>
-		                        <span class="price_table-description">Unlimited Websites</span> 
-		                        <span class="price_table-description">1 Year Updates</span> 
-		                        <span class="price_table-description">1 Year Email Support</span>
-		                        <big class="price_table-price">$90</big>
-		                        <span class="price_table-button">Buy Now</span>
-		                    </a>
-		                </li>
-		            
-		                <li>
-		                    <a href="#">
-		                        <strong>Premium</strong>
-		                        <span class="price_table-description">Unlimited Websites</span> 
-		                        <span class="price_table-description">Lifetime Updates</span> 
-		                        <span class="price_table-description">Lifetime Email Support</span>
-		                        <big class="price_table-price">$190</big>
-		                        <span class="price_table-button">Buy Now</span>
-		                    </a>
-		                </li>
-		            </ul>
-	    		</div>	<!-- row main_content -->
-	    	</div>	<!-- container -->
-	    </section>	<!-- price_table -->
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
+                                <span class="u-screen-reader-text">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05 c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032 c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22 c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"></path></svg>
+                                <span class="u-screen-reader-text">Twitter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"></path></svg>
+                                <span class="u-screen-reader-text">Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M20.66 6.98a9.932 9.932 0 0 0-3.641-3.64C15.486 2.447 13.813 2 12 2s-3.486.447-5.02 1.34c-1.533.893-2.747 2.107-3.64 3.64S2 10.187 2 12s.446 3.487 1.34 5.02a9.924 9.924 0 0 0 3.641 3.64C8.514 21.553 10.187 22 12 22s3.486-.447 5.02-1.34a9.932 9.932 0 0 0 3.641-3.64C21.554 15.487 22 13.813 22 12s-.446-3.487-1.34-5.02zM12 3.66c2 0 3.772.64 5.32 1.919-.92 1.174-2.286 2.14-4.1 2.9-1.002-1.813-2.088-3.327-3.261-4.54A7.715 7.715 0 0 1 12 3.66zM5.51 6.8a8.116 8.116 0 0 1 2.711-2.22c1.212 1.201 2.325 2.7 3.34 4.5-2 .6-4.114.9-6.341.9-.573 0-1.006-.013-1.3-.04A8.549 8.549 0 0 1 5.51 6.8zM3.66 12c0-.054.003-.12.01-.2.007-.08.01-.146.01-.2.254.014.641.02 1.161.02 2.666 0 5.146-.367 7.439-1.1.187.373.381.793.58 1.26-1.32.293-2.674 1.006-4.061 2.14S6.4 16.247 5.76 17.5c-1.4-1.587-2.1-3.42-2.1-5.5zM12 20.34c-1.894 0-3.594-.587-5.101-1.759.601-1.187 1.524-2.322 2.771-3.401 1.246-1.08 2.483-1.753 3.71-2.02a29.441 29.441 0 0 1 1.56 6.62 8.166 8.166 0 0 1-2.94.56zm7.08-3.96a8.351 8.351 0 0 1-2.58 2.621c-.24-2.08-.7-4.107-1.379-6.081.932-.066 1.765-.1 2.5-.1.799 0 1.686.034 2.659.1a8.098 8.098 0 0 1-1.2 3.46zm-1.24-5c-1.16 0-2.233.047-3.22.14a27.053 27.053 0 0 0-.68-1.62c2.066-.906 3.532-2.006 4.399-3.3 1.2 1.414 1.854 3.027 1.96 4.84-.812-.04-1.632-.06-2.459-.06z"></path></svg>
+                                <span class="u-screen-reader-text">Dribbble</span>
+                            </a>
+                        </li>
+                    </ul> <!-- end s-footer__social -->
+                </div>
+                <div class="column xl-6 lg-12">
+                    <p class="ss-copyright">
+                        <span>© Copyright Monica 2022</span> 
+                        <span>Design by <a href="https://www.styleshout.com/">StyleShout</a> Distribution By <a href="https://themewagon.com">ThemeWagon</a></span>
+                    </p>
+                </div>
 
-		<!-- Blog -->
-	    <section id="blog">
-	    	<div class="container">
-	    		<div class="row text-center" id="heading">
-	    			<div class= "bg-image">
-		    			<div class= "col-md-6 col-md-offset-3 wow animated zoomInDown" id= "heading-text">
-		        			<h3>Our Blog</h3>
-		                	<p>Sharing knowledge, Accepting challenge.</p>
-		                	<hr class= "full">
-		                	<br/>
-		        		</div>
-		        	</div>
-	    		</div>
-		    	<div class= "row post">
-		    		<div class= "main_content">
-		    			<div class= "post-thumbnail col-md-5">
-		    				<div class= "frame">
-		    					<div class="post-format">
-		    						<span class="icon-picture">
-		    							<i class= "fa fa-laptop"></i>
-		    						</span>
-		    					</div>
-		    					<a href="#"><img class= "img-responsive" src="img/design1.png" alt=""/></a>
-		    				</div>
-		    				<img class="hidden-xs post-shadow" src="img/post-shadow.png" alt=""/>
-		    			</div>
-		    			<div class= "post-excerpt col-md-7">
-		    				<h2 class="title"><a href="#">FLAT &amp; MODERN TREND DESIGN</a></h2>
-		    				<div class="line-dotted"></div>
-		    				<p>
-		    					Diur apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae. Diur tol apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas quie wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae.
-		    					<a href="#">...Read more</a>
-		    				</p> 
-		    				<div class="line-dotted"></div>
-		    				<p class="meta">
-		    					<strong>Date:</strong> 14/February/2013 <strong>By:</strong> Zyanya Peredo <strong>In: </strong><a href="#">Photography</a>, <a href="#">Print</a>, <a href="#">Design</a>
-		    				</p>
-		    				<div class="line-dotted"></div>
-		    				<div class= "post-share">
-		    					<p>Share this post:</p>
-		    					<ul>
-		    						<li>
-		    							<a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
-					        				<i class="fa fa-facebook"></i>
-					        			</a>
-		    						</li>
-		    						<li>
-		    							<a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
-					        				<i class="fa fa-twitter"></i>
-					        			</a>
-		    						</li>
-		    						<li>
-		    							<a href="#" data-toggle="tooltip" title="Contact with Google-plus" class= "team-google-plus">
-					        				<i class="fa fa-google-plus"></i>
-					        			</a>
-		    						</li>
-		    					</ul>	
-		    				</div>
-		    			</div>
-		    		</div>
-		    	</div>
-		    	<div class="row post">
-		    		<div class="main_content">
-		    			<div class="post-thumbnail col-md-5">
-		    				<div class="frame">
-		    					<div class="post-format image">
-		    						<span class="icon-facetime-video">
-		    							<i class="fa fa-video-camera"></i>
-		    						</span>
-		    					</div>
-		    					<div class="vimeo-video" rel="" data-width="500" data-height="400">
-		    						<iframe width="420" height="315" src="//www.youtube.com/embed/DN__D5ixme0" frameborder="0" allowfullscreen></iframe>
-		    					</div>
-		    				</div>
-		    				<img class="hidden-xs post-shadow" src="img/post-shadow.png" alt=""/>
-		    			</div>
-		    			<div class="post-excerpt col-md-7">
-		    				<h2 class="title">
-		    					<a href="#">Make up forever - tres vichy</a>
-		    				</h2>
-		    				<div class="line-dotted">
-		    				</div>
-		    				<p>
-		    					Diur apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae. Diur tol apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas quie wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae.
-		    					<a href="#">...Read more</a>
-		    				</p> 
-		    				<div class="line-dotted"></div>
-		    				<p class="meta"><strong>Date: </strong>14/February/2013 <strong>By: </strong>Zyanya Peredo <strong>In: </strong><a href="#">Photography</a>, <a href="#">Print</a>, <a href="#">Design</a>
-		    				</p>
-		    				<div class="line-dotted"></div>
-		    				<div class= "post-share">
-		    					<p>Share this post:</p>
-		    					<ul>
-		    						<li>
-		    							<a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
-					        				<i class="fa fa-facebook"></i>
-					        			</a>
-		    						</li>
-		    						<li>
-		    							<a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
-					        				<i class="fa fa-twitter"></i>
-					        			</a>
-		    						</li>
-		    						<li>
-		    							<a href="#" data-toggle="tooltip" title="Contact with Google-plus" class= "team-google-plus">
-					        				<i class="fa fa-google-plus"></i>
-					        			</a>
-		    						</li>
-		    					</ul>	
-		    				</div>
-		    			</div>
-		    		</div>
-		    	</div>
-		    	<div class="row post">
-		    		<div class="main_content">
-		    			<div class="post-thumbnail col-md-5">
-		    				<div class="frame">
-		    					<div class="post-format quote">
-		    						<span class="icon-camera-retro">
-		    							<i class= "fa fa-star"></i>
-		    						</span>
-		    					</div>
-		    					<a href="#"><img class= "img-responsive" src="img/blog3.png" alt=""/></a>
-		    				</div>
-		    				<img class="hidden-xs post-shadow" src="img/post-shadow.png" alt=""/>
-		    			</div>
-		    			<div class="post-excerpt col-md-7">
-		    				<h2 class="title">
-		    					<a href="#">Make up forever - Make your web page beautiful.</a>
-		    				</h2>
-		    				<div class="line-dotted"></div>
-		    				<p>
-		    					Diur apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae.
-		    					<a href="#">...Read more</a>
-		    				</p> 
-		    				<div class="line-dotted"></div>
-		    				<p class="meta"><strong>Date: </strong>14/February/2013 <strong>By: </strong>Zyanya Peredo<strong>In: </strong><a href="#">Photography</a>, <a href="#">Print</a>, <a href="#">Design</a>
-		    				</p>
-		    				<div class="line-dotted"></div>
-		    				<div class= "post-share">
-		    					<p>Share this post:</p>
-		    					<ul>
-		    						<li>
-		    							<a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
-					        				<i class="fa fa-facebook"></i>
-					        			</a>
-		    						</li>
-		    						<li>
-		    							<a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
-					        				<i class="fa fa-twitter"></i>
-					        			</a>
-		    						</li>
-		    						<li>
-		    							<a href="#" data-toggle="tooltip" title="Contact with Google-plus" class= "team-google-plus">
-					        				<i class="fa fa-google-plus"></i>
-					        			</a>
-		    						</li>
-		    					</ul>	
-		    				</div>
-		    			</div>
-		    		</div>
-		    	</div>
-		    	<div class="row post">
-		    		<div class="main_content">
-		    			<div class="post-thumbnail col-md-5">
-		    				<div class="frame">
-		    					<div class="post-format gallery">
-		    						<span class="icon-quote-left">
-		    							<i class= "fa fa-bookmark"></i>
-		    						</span>
-		    					</div>
-		    					<a href="#"><img class= "img-responsive" src="img/global_focus.jpg" alt=""/></a>
-		    				</div>
-		    				<img class="hidden-xs post-shadow" src="img/post-shadow.png" alt=""/>
-		    			</div>
-		    			<div class="post-excerpt col-md-7">
-		    				<h2 class="title">
-		    					<a href="#">The most beautiful quotes ever</a>
-		    				</h2>
-		    				<div class="line-dotted"></div>
-		    				<p>
-		    					Diur apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae. Diur tol apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas quie wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae.
-		    					<a href="#">...Read more</a>
-		    				</p> 
-		    				<div class="line-dotted"></div>
-		    				<p class="meta"><strong>Date:</strong> 14/February/2013 <strong>By:</strong> Zyanya Peredo <strong>In:</strong> <a href="#">Photography</a>, <a href="#">Print</a>, <a href="#">Design</a>
-		    				</p>
-		    				<div class="line-dotted"></div>
-		    				<div class= "post-share">
-		    					<p>Share this post:</p>
-		    					<ul>
-		    						<li>
-		    							<a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
-					        				<i class="fa fa-facebook"></i>
-					        			</a>
-		    						</li>
-		    						<li>
-		    							<a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
-					        				<i class="fa fa-twitter"></i>
-					        			</a>
-		    						</li>
-		    						<li>
-		    							<a href="#" data-toggle="tooltip" title="Contact with Google-plus" class= "team-google-plus">
-					        				<i class="fa fa-google-plus"></i>
-					        			</a>
-		    						</li>
-		    					</ul>	
-		    				</div>
-		    			</div>
-		    		</div>
-		    	</div>
-	    		<div class= "row">
-	    			<div class= "col-md-6 col-md-offset-3 text-center">
-	    				<ul class="pagination">
-							<li class="disabled"><a href="#">&gt;&gt;</a></li>
-							<li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
-						  	<li><a href="#">2</a></li>
-						  	<li><a href="#">3</a></li>
-						  	<li><a href="#">4</a></li>
-						  	<li><a href="#">5</a></li>
-						  	<li><a href="#">>></a></li>
-						</ul>
-	    			</div>
-	    		</div>
-    		</div>	<!-- container -->
-	    </section>	<!-- blog -->
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<polyline points="17 11 12 6 7 11"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
+                    </a>
+                </div> <!-- end ss-go-top -->
+            </div>
+            
+        </footer> <!-- end s-footer -->
 
-		<!-- Clients -->
-	    <section id= "testimonial">
-	    	<div class= "container">
-	    		<div class= "row text-center" id= "heading">
-	    			<div class= "bg-image col-md-12">
-	    				<div class= "col-md-6 col-md-offset-3 wow animated zoomInDown" id= "heading-text">
-		        			<h3>Testimonials</h3>
-		                	<p>Their satisfication, Our inspiration.</p>
-		                	<hr class= "full">
-		                	<br/>
-		        		</div>
-	    			</div>
-	    		</div>
-	    		<div class= "row main_content">
-	    			<div class= "col-md-6 col-md-offset-3">
-	    				<div id="client-speech" class="owl-carousel owl-theme">
-							<div class="item">
-								<div class= "row">
-									<div class= "col-md-6 col-md-offset-3">
-										<img class= "img-circle img-responsive center-block" src="img/client1.png">
-									</div>	
-									<div class= "col-md-12">
-										<p class= "client-comment text-center">
-											When you form a team, why do you try to form a team? Because teamwork builds trust and trust builds speed.
-										</p>
-									</div>
-								</div>
-								<div class= "row text-center">
-									<p class= "client-name text-center"> ----- Noona Nuengthida Sophon</p>
-								</div>
-							</div>
-							<div class="item">
-								<div class= "row">
-									<div class= "col-md-6 col-md-offset-3">
-										<img class= "img-circle img-responsive center-block" src="img/client2.jpg">
-									</div>
-									<div class= "col-md-12">
-										<p class= "client-comment text-center">
-											I am constantly being asked about individuals.&nbsp;The only way to win is as a team. Football is not about one or two or three star players.
-										</p>
-									</div>
-								</div>
-								<div class= "row text-center">
-									<p class= "client-name">-----Md. Aminul Islam Bhuiyan</p>
-								</div>
-							</div>
-							<div class="item">
-								<div class= "row">
-									<div class= "col-md-6 col-md-offset-3">
-										<img class= "img-circle img-responsive center-block" src="img/client3.png">
-									</div>
-									<div class= "col-md-12">
-										<p class= "client-comment text-center">
-											Individual commitment to a group effort- that is what makes a team work, a company work, a society work, a civilisation work.
-										</p>
-									</div>
-								</div>
-								<div class= "row text-center">
-									<p class= "client-name">-----  Jenifar Pink</p>
-								</div>
-							</div>
-						</div>
-	    			</div>
-	    		</div>
-	    	</div>	
-	    </section>	<!-- clients -->
+    </div> <!-- end page-wrap -->
 
-		<!-- contact -->
-	    <section id= "contact">
-	    	<div class= "container">
-				<div class="row text-center" id= "heading">
-					<div class= "bg-image">
-						<div class= "col-lg-6 col-lg-offset-3 share-text wow animated zoomInDown" id= "heading-text">
-							<h3 class= "text-center">Stay Connected</h3>
-		                	<p>We want to connect people like you.</p>
-		                	<hr class= "full">
-		                	<br/>
-						</div>
-					</div>
-				</div>
-				<div class= "row text-center main_content">
-					<div class= "col-md-6 col-md-offset-3 text-center">
-						<form method="post" action="#">
-							<div class= "form">
-								<div class="input-group margin-bottom-sm">
-	  								<span class="input-group-addon">
-	  									<i class="fa fa-user fa-fw"></i>
-	  								</span>
-								 	<input class="form-control" type="text" placeholder="Name" required>
-								</div>
-								<div class="input-group margin-bottom-sm">
-	  								<span class="input-group-addon">
-	  									<i class="fa fa-envelope-o fa-fw"></i>
-	  								</span>
-								 	<input class="form-control" type="text" placeholder="Email address" required>
-								</div>
-								<div class="input-group margin-bottom-sm">
-	  								<span class="input-group-addon">
-	  									<i class="fa fa-tags fa-fw"></i>
-	  								</span>
-								 	<input class="form-control" type="text" placeholder="Subject">
-								</div>
-							</div>
-							<div class="input-group margin-bottom-sm">
-									<span class="input-group-addon">
-										<i class="fa fa-comment-o fa-fw"></i>
-									</span>
-								<textarea class="form-control" rows="6" type= "text" placeholder="Your Message" required></textarea>
-							</div>
-							<input class="btn btn-primary send" type="submit" value="Send Message">
-						</form>
-					</div>	
-				</div>
-				<div class= "row">
-					<div class= "col-md-6 col-md-offset-3 text-center">
-						<ul class="socials-icons">
-							<li>
-								<a href="#" data-toggle="tooltip" title="Share in Facebook" class="facebook"><i class="fa fa-facebook"></i></a>
-							</li>
-							<li>
-								<a href="#" data-toggle="tooltip" title="Share in Twitter" class="twitter"><i class="fa fa-twitter"></i></a>
-							</li>
-							<li>
-								<a href="#" data-toggle="tooltip" title="Share in Google +" class="google-plus"><i class="fa fa-google-plus"></i></a>
-							</li>
-							<li>
-								<a href="#" data-toggle="tooltip" title="Share in Instagram" class="instagram"><i class="fa fa-instagram"></i></a>
-							</li>
-							<li>
-								<a href="#" data-toggle="tooltip" title="Share in Pinterest" class="pinterest"><i class="fa fa-pinterest"></i></a>
-							</li>
-							<li>
-								<a href="#" data-toggle="tooltip" title="Connect with Skype" class="skype"><i class="fa fa-skype"></i></a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-	    </section>	<!-- contacts --> 
-			
-		<!-- footer -->
-		<section id= "footer" class= "main-footer">
-			<div class= "row">
-				<div class= "logo text-center">
-					<h1>Renessa</h1>
-				</div>
-			</div>
-			<div class= "row">
-				<div class= "copyright text-center">
-					<p> © 2014 Technext. Designed and Developed by <a href="http://themewagon.com"><span class= "theme">Themewagon</span></a></p>
-				</div>
-			</div>
-		</section><!-- footer -->
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
-		<!-- js -->
-		<script>
-			$(document).ready(function() {
-  				$("#client-speech").owlCarousel({
-  					autoPlay: 3000,
-      				navigation : false, // Show next and prev buttons
-      				slideSpeed : 700,
-      				paginationSpeed : 1000,
-      				singleItem:true
-  				});
-			});
-		</script>
-		<script>
- 			new WOW().init();
-		</script>
-		<script>
-			$( function() {
-				  // init Isotope
-			  	var $container = $('.isotope').isotope
-			  	({
-				    itemSelector: '.element-item',
-				    layoutMode: 'fitRows'
-			  	});
-
-
-  				// bind filter button click
-  				$('#filters').on( 'click', 'button', function() 
-  				{
-				    var filterValue = $( this ).attr('data-filter');
-				    // use filterFn if matches value
-				    $container.isotope({ filter: filterValue });
-				 });
-  
-			  // change is-checked class on buttons
-			  	$('.button-group').each( function( i, buttonGroup ) 
-			  	{
-			    	var $buttonGroup = $( buttonGroup );
-			    	$buttonGroup.on( 'click', 'button', function() 
-			    	{
-			      		$buttonGroup.find('.is-checked').removeClass('is-checked');
-			      		$( this ).addClass('is-checked');
-			    	});
-			  	});
-			  
-			});
-		</script>
-        <script src="js/jquery-ui-1.10.3.min.js"></script>
-        <script src="js/jquery.knob.js"></script>
-        <script src="js/daterangepicker.js"></script>
-        <script src="js/bootstrap3-wysihtml5.all.min.js"></script>
-        <script src="js/dashboard.js"></script>
-       
-	</body>
+</body>
 </html>
