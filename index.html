@@ -1,19 +1,27 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js" >
-<head>    
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Wesley Morais</title>
+<html class="no-js" lang="en">
+<head>
 
-    <script>
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-    </script>
+    <!--- basic page needs -->
+    <meta charset="utf-8">
+    <title>Wesley Morais</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- CSS
     ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
 
     <!-- favicons
     ================================================== -->
@@ -24,354 +32,595 @@
 
 </head>
 
-
 <body id="top">
 
-    
-    <!-- preloader
-    ================================================== -->
     <div id="preloader">
-        <div id="loader" class="dots-fade">
-            <div></div>
-            <div></div>
-            <div></div>
+        <div id="loader"></div>
+    </div>
+
+    <!-- site header -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/logo.svg" alt="Homepage">
+            </a>
         </div>
-    </div>
+        <nav class="header-nav-wrap">
+            <ul class="header-main-nav">
+                <li class="current"><a class="smoothscroll" href="#intro" title="intro">Home</a></li>
+                <li><a class="smoothscroll" href="#about" title="about">Sobre</a></li>
+                <li><a class="smoothscroll" href="#services" title="services">Projetos</a></li>
+                <li><a class="smoothscroll" href="#works" title="works">Experiência</a></li>
+                <li><a class="smoothscroll" href="#contact" title="contact us">Contato</a></li>	
+            </ul>
+
+            <ul class="header-social">
+                <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+            </ul>
+        </nav>
+    
+        <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+
+    </header> 
+
+    <!-- intro -->
+    <section id="intro" class="s-intro target-section">
+
+        <div class="row intro-content">
+
+            <div class="column large-9 mob-full intro-text">
+                <h3>Wesley Morais</h3>
+                <h1>
+                    Gestor de produto,<br>
+                     marketing<br>
+                     e tecnologia.
+                </h1>
+            </div>
+
+            <div class="intro-scroll">
+                <a href="#about" class="intro-scroll-link smoothscroll">
+                    Scroll For More
+                </a>
+            </div>
+
+            <div class="intro-grid"></div>
+            <div class="intro-pic"></div>
+
+        </div> <!-- end row -->
+
+    </section> <!-- end intro -->
 
 
-    <!-- page wrap
+    <!-- about -->
+    <section id="about" class="s-about target-section">
+
+        <div class="about-me">
+
+            <div class="row heading-block" data-aos="fade-up">
+                <div class="column large-full">
+                    <h2 class="section-heading">Sobre mim</h2>
+                </div>
+            </div>
+
+            <div class="row about-me__content" data-aos="fade-up">
+                <div class="column large-full about-me__text">
+                    <p class="lead">
+                    Ao longo da minha trajetória profissional, assumi a liderança de equipes dedicadas à concepção de produtos inovadores voltados para atender às demandas do mercado.
+                    Minha paixão por inovação me impulsiona a buscar constantemente novas maneiras de agregar valor aos projetos, seja através da implementação de novas tecnologias, da otimização de processos ou da identificação de novas áreas de oportunidade.
+                    Acredito firmemente no poder da inovação para impulsionar o progresso e estou comprometido em desempenhar um papel ativo nesse processo, seja como líder, consultor ou conselheiro.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-experience">
+            <div class="row heading-block" data-aos="fade-up">
+                <div class="column large-full">
+                    <h2 class="section-heading">Work & Education</h2>
+                </div>
+            </div>
+            <div class="row about-experience__timeline">
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <div class="timeline">
+
+                        <div class="timeline__icon-wrap">
+                            <span class="timeline__icon timeline__icon--work"></span>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">Janeiro 2024</p>
+                                <h3 class="item-title">Bluwe</h3>
+                                <h5>Head de Marketing e Tecnologia</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">Jan 2023 - Dez 2023</p>
+                                <h3 class="item-title">Beebee</h3>
+                                <h5>Head de Marketing e Tecnologia</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <div class="timeline">
+                        <div class="timeline__icon-wrap">
+                            <span class="timeline__icon timeline__icon--work"></span>
+                        </div>
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">Jan 2022 - Dez 2022</p>
+                                <h3 class="item-title">ATW Delivery</h3>
+                                <h5>Head de Marketing e Tecnologia</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">Jan 2021 - Dez 2021</p>
+                                <h3 class="item-title">Benjamin Padaria</h3>
+                                <h5>Head de Marketing e Tecnologia</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- end about-experience -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
     ================================================== -->
-    <div id="page" class="s-pagewrap ss-home">
+    <section id="services" class="s-services ss-dark target-section">
 
+        <div class="shadow-overlay"></div>
 
-        <!-- # site header -->
-        <header class="s-header">
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading section-heading--centerbottom">Capabilities</h2>
 
-            <div class="row s-header__inner width-sixteen-col">
+                <p class="section-desc">
+                    My passion and goal is to help you make your business standout.
+                </p>
+            </div>
+        </div> <!-- end heading-block -->
 
-                <div class="s-header__block">
-                    <div class="s-header__logo">
-                        <a class="logo" href="index.html">
-                            <img src="images/logo.svg" alt="Homepage">
-                        </a>
+        <div class="row services-list block-large-1-3 block-medium-1-2 block-tab-full">
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Brand Identity</h4>
+                    <p>
+                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et 
+                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus 
+                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Illustration</h4>
+                    <p>
+                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et 
+                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus 
+                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Web Design</h4>
+                    <p>
+                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et 
+                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus 
+                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Product Strategy</h4>
+                    <p>
+                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et 
+                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus 
+                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">UI/UX Design</h4>
+                    <p>
+                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et 
+                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus 
+                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Mobile Design</h4>
+                    <p>
+                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et 
+                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus 
+                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CTA
+    <section class="s-cta ss-dark">
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-desc">
+                    Need a great reliable web hosting?
+                </h2>
+            </div>
+        </div>
+
+        <div class="row cta-content" data-aos="fade-up">
+            <div class="column large-full">
+                <p>
+                We highly recommend <a href="https://www.dreamhost.com/r.cgi?287326">DreamHost</a>.
+                Powerful web and Wordpress hosting. Guaranteed.
+                Starting at $2.95 per month.
+                </p>
+
+                <a href="https://www.dreamhost.com/r.cgi?287326" class="btn full-width">Get Started</a>
+            </div>
+        </div>
+    </section> 
+    end CTA -->
+
+    <!-- Works
+    <section id="works" class="s-works target-section">
+
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading section-heading--centerbottom">Selected Works</h2>
+                <p class="section-desc">
+                    Here are some of my selected works I have done lately. Feel free to 
+                    check them out.
+                </p>
+            </div>
+        </div>
+
+        <div class="masonry-wrap">
+
+            <div class="masonry">
+                <div class="grid-sizer"></div>
+    
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-city-building.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                <img src="images/portfolio/city-building.jpg" 
+                                     srcset="images/portfolio/city-building.jpg 1x, images/portfolio/city-building@2x.jpg 2x" alt="">
+                            </a>    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+    
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                City Building
+                            </h4>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+    
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
                     </div>
-
-                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
-                </div> <!-- end s-header__block -->
-
-                <nav class="s-header__nav">
+                </div>
     
-                    <ul class="s-header__menu-links">
-                        <li><a href="">Sobre</a></li>
-                        <li><a href="">Serviços</a></li>
-                        <li><a href="">Blog</a></li>                        
-                    </ul>
-
-                    <div class="s-header__contact">
-                        <a href="" class="btn btn--primary s-header__contact-btn">Contato</a>                        
-                    </div> 
-    
-                </nav> <!-- end s-header__nav -->
-
-            </div> <!-- end s-header__inner -->
-
-        </header> <!-- end s-header -->
-
-
-        <!-- # site main content
-        ================================================== -->
-        <section id="content" class="s-content">
-
-            <!-- intro
-            ----------------------------------------------- -->
-            <section id="intro" class="s-intro">
-
-                <div class="row s-intro__content width-sixteen-col">
-
-                    <div class="column lg-12 s-intro__content-inner grid-block">
-                        
-                        <div class="s-intro__content-text">
-                            <div class="s-intro__content-pretitle text-pretitle">Olá, sou Wesley Morais</div>
-                            <h1 class="s-intro__content-title">
-                            Desenvolvo estratégias para impulsionar os<br>
-                            resultados do seu negócio.<br>                        
-                            </h1>
-                        </div> <!-- s-intro__content-text -->
-
-                        <div class="s-intro__content-media"> 
-                            <div class="s-intro__content-media-inner">                               
-                                <img src="images/intro-bg.jpg" srcset="images/intro-bg.jpg 1x, images/intro-bg@2x.jpg 2x" alt="">
-                                <div class="lines">                               
-                                    <span></span>                                  
-                                </div>
-                            </div>
-                        </div> <!-- s-intro__content-media -->                      
-
-                        <div class="s-intro__scroll-down">
-                            <a href="#about" class="smoothscroll">
-                                <div class="scroll-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#97b34a" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<polyline points="7 13 12 18 17 13"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
-                                </div>
-                                <span>Sobre mim</span>
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                                <img src="images/portfolio/woodcraft.jpg" 
+                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
                             </a>
-                        </div> <!-- s-intro__scroll-down -->
-                        
-                    </div> <!-- s-intro__content-inner -->
-
-                </div> <!-- s-intro__content -->
-
-            </section> <!-- end s-intro -->
-
-            <!-- About -->
-            <section id="about" class="s-about target-section">
-
-                <div class="row s-about__content width-sixteen-col">
-                    <div class="column grid-block grid-section-split">
-
-                        <img src="images/geometric_shape.svg" alt="" class="s-about__content-imgbg">
-
-                        <div class="section-header grid-section-split__header">
-                            <div class="text-pretitle">Sobre mim</div>                           
-                            <h2 class="text-display-title">
-                            Gestor de produto, marketing e tecnologia.
-                            </h2>                           
-                        </div> <!-- end section-header -->
-
-                        <div class="s-about__content-main grid-section-split__primary">
-                            <p class="attention-getter">
-                            Ao longo da minha trajetória profissional, assumi a liderança de equipes dedicadas à concepção de produtos inovadores voltados para atender às demandas do mercado.
-                            </p>
-
-                            <p class="attention-getter">
-                            Minha paixão por inovação me impulsiona a buscar constantemente novas maneiras de agregar valor aos projetos, seja através da implementação de novas tecnologias, da otimização de processos ou da identificação de novas áreas de oportunidade.
-                            </p>
-
-                            <p class="attention-getter">
-                            Acredito firmemente no poder da inovação para impulsionar o progresso e estou comprometido em desempenhar um papel ativo nesse processo, seja como líder, consultor ou conselheiro.
-                            </p>
-                        </div> 
-                    </div>
-                </div>                
-            </section> <!-- end s-about -->
-
-            <!-- Expertise
-            <section id="expertise" class="s-expertise">
-
-                <div class="row s-expertise__content width-sixteen-col">
-                    <div class="column xl-12 grid-block grid-section-split">
-
-                        <div class="section-header grid-section-split__header">
-                            <div class="text-pretitle">Competências</div>
-                            
-                            <h2 class="text-display-title">Áreas de atuação</h2>
-                            
-                            
-                            <p class="lead">
-                            Laborum suscipit debitis quam dignissimos veritatis atque pariatur magnam obcaecati fugit reprehenderit vel numquam facere esse est deserunt, perferendis commodi voluptatem similique.
-                            </p>
-
-                        </div> 
-
-                        <div class="s-expertise__content-main grid-section-split__primary">
-
-                            <div class="grid-list-items list-items show-ctr">
-                                <div class="grid-list-items__item list-items__item">
-                                    <div class="grid-list-items__title list-items__item-header">
-                                        <h3 class="list-items__item-title">Planejamento estratégico</h3>
-                                    </div>
-                                    <div class="grid-list-items__text list-items__item-text">
-                                        <p>
-                                        Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. 
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="grid-list-items__item list-items__item">
-                                    <div class="grid-list-items__title list-items__item-header">
-                                        <h3 class="list-items__item-title">Desenvolvimento de produtos</h3>
-                                    </div>
-                                    <div class="grid-list-items__text list-items__item-text">
-                                        <p>
-                                        Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos.
-                                        </p>
-                                    </div>
-                                </div> 
-                                <div class="grid-list-items__item list-items__item">
-                                    <div class="grid-list-items__title list-items__item-header">
-                                        <h3 class="list-items__item-title">Marketing digital</h3>
-                                    </div>
-                                    <div class="grid-list-items__text list-items__item-text">
-                                        <p>
-                                        Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos.
-                                        </p>
-                                    </div>
-                                </div> 
-                                <div class="grid-list-items__item list-items__item">
-                                    <div class="grid-list-items__title list-items__item-header">
-                                        <h3 class="list-items__item-title">Gestão de pessoas</h3>
-                                    </div>
-                                    <div class="grid-list-items__text list-items__item-text">
-                                        <p>
-                                        Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos.
-                                        </p>
-                                    </div>
-                                </div>
-
-                            </div>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
                         </div>
-                        -->
-                        <!--
-                        <div class="s-expertise__content-btn grid-section-split__bottom">
-                            <a href="services.html" class="btn btn--stroke u-fullwidth">View All Services</a>
-                        </div>
-                        -->
-
-                    </div>
-                </div>
-
-            </section>
-
-            <!-- Clients -->
-            <section id="clients" class="s-clients">          
-
-                <div class="row s-clients__content-block width-sixteen-col">
-                    <div class="column xl-12 grid-block grid-section-split">                    
-                        <div class="section-header grid-section-split__header">
-                            <div class="text-pretitle">Projetos</div>                           
-                            <h2 class="text-display-title">
-                            O privilégio de trabalhar com marcas e pessoas incríveis.
-                            </h2>       
-                        </div>                    
-                        <div class="grid-section-split__primary">
-                            <!--
-                            <p class="lead">
-                            Quibusdam quis autem voluptatibus earum vel ex error ea. Lorem ipsum dolor sit amet consectetur 
-                            adipisicing elit. Laborum suscipit debitis quam dignissimos veritatis atque pariatur magnam 
-                            obcaecati fugit reprehenderit vel numquam facere esse est deserunt, perferendis commodi voluptatem similique.
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Woodcraft
+                            </h4>
+                            <p class="item-folio__cat">
+                                Web Design
                             </p>
-                            -->   
-                        </div>                    
-                    </div> 
-                </div>
-
-                <div class="row s-clients__content-block width-sixteen-col">
-                    <div class="column xl-12">
-                    
-                        <div class="clients-list">                            
-                            <div class="clients-list__item">
-                                <a href="https://www.bluwe.com.br" target="_blank">
-                                    <img src="images/clients/bluwe.svg" alt="">
-                                </a>
-                            </div>
-                            <div class="clients-list__item">
-                                <a href="https://www.wine.com.br" target="_blank">
-                                    <img src="images/clients/wine.svg" alt="">
-                                </a>
-                            </div>
-                            <div class="clients-list__item">
-                                <a href="https://www.willbank.com.br" target="_blank">
-                                    <img src="images/clients/willbank.svg" alt="">
-                                </a>
-                            </div>
-                            <div class="clients-list__item">
-                                <a href="https://www.redegazeta.com.br" target="_blank">
-                                    <img src="images/clients/redegazeta.svg" alt="">
-                                </a>
-                            </div>
-                            <!--
-                            <div class="clients-list__item">
-                                <a href="https://www.redegazeta.com.br" target="_blank">
-                                    <img src="images/clients/redegazeta.svg" alt="">
-                                </a>
-                            </div>
-                        -->
                         </div>
-
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
                     </div>
                 </div>
-                                
-                <div class="row s-clients__content-block width-sixteen-col">
-                    <div class="column xl-12 testimonials">
-                    
-                        <div class="swiper-container testimonials__slider home-slider">
 
-                            <div class="swiper-wrapper">
-                                <div class="testimonials__slide swiper-slide">
-                                    <p>
-                                    Wesley é um profissional altamente adaptável, ele entende e consegue mapear cenários de negócio, sempre conectando as iniciativas a tecnologia e design. Acredito muito em sua visão de negócio e na capacidade que ele tem de pensar em soluções que consigam gerar impacto positivo para o negócio.
-                                    <div class="testimonials__author">
-                                        <img src="images/avatars/gabrielpinheiro.jpeg" alt="Author image" class="testimonials__avatar">
-                                        <cite class="testimonials__cite">
-                                            <a href="https://www.linkedin.com/in/gabriel-pinheiro-maciel/" target="_blank"><strong>Gabriel Pinheiro</strong></a>
-                                            <span>Autor do livro UX estratégico</span>
-                                        </cite>
-                                    </div>
-                                </div>
-                                <div class="testimonials__slide swiper-slide">
-                                    <p>
-                                    Wesley é movido a desafios. É um líder nato, que sabe conduzir times em empresas inovadoras. Possui sólidos e profundos conhecimentos em digital, capazes de alavancar negócios em estágio de escala. Pessoalmente, uma pessoa de fácil relacionamento e dedicado a desenvolver pessoas.
-                                    </p>
-                                    <div class="testimonials__author">
-                                        <img src="images/avatars/leocarraretto.jpeg" alt="Author image" class="testimonials__avatar">                                        
-                                        <cite class="testimonials__cite">
-                                            <a href="https://www.linkedin.com/in/leocarraretto/" target="_blank"><strong>Leonardo Carraretto</strong></a>
-                                            <span>Co-Founder at WIS</span>
-                                        </cite>
-                                    </div>
-                                </div>
-                                <div class="testimonials__slide swiper-slide">
-                                    <p>
-                                    Trabalhei com o Wesley em diferentes projetos e posso afirmar com certeza de que é um profissional brilhante, dedicado e que se preocupa com a qualidade da entrega acima de tudo.
-                                    É um profissional que tem no seu DNA a colaboração, que sabe ouvir e definir o melhor caminho para o produto.
-                                </p>
-                                    <div class="testimonials__author">                                        
-                                        <img src="images/avatars/jimmy.jpeg" alt="Author image" class="testimonials__avatar">
-                                        <cite class="testimonials__cite">
-                                            <a href="https://www.linkedin.com/in/luisfelipefernandes/" target="_blank"><strong>Luis Felipe Fernandes</strong></a>
-                                            <span>Diretor de Produto na Thoughtworks</span>
-                                        </cite>
-                                    </div>
-                                </div>
-                                <div class="testimonials__slide swiper-slide">
-                                    <p>
-                                    Wesley é um profissional com uma visão de produto única. Sempre preocupado em entregar um produto que se sustente, tanto atingindo as metas quanto entregando a melhor experiência. Como líder, um profissional preocupado com as pessoas do time, que busca motivar e reconhecer o desempenho de cada um.
-                                    </p>
-                                    <div class="testimonials__author">
-                                        <img src="images/avatars/davihulle.jpeg" alt="Author image" class="testimonials__avatar">
-                                        <cite class="testimonials__cite">
-                                            <a href="https://www.linkedin.com/in/david-hulle/" target="_blank"><strong>David Hülle </strong></a>
-                                            <span>UX Design Lead no Mercado Pago</span>
-                                        </cite>
-                                    </div>
-                                </div> 
-                            </div>
-                            <div class="swiper-pagination"></div>
-                        </div>                    
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                <img src="images/portfolio/the-beetle.jpg"
+                                     srcset="images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                The Beetle
+                            </h4>
+                            <p class="item-folio__cat">
+                                Web Development
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Grow Green" data-size="1050x700">
+                                <img src="images/portfolio/shutterbug.jpg" 
+                                     srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Shutterbug
+                            </h4>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
                     </div>
                 </div>
-            </section>
 
-        </section>
-        <!-- Footer -->
-        <footer class="s-footer">
-            <div class="row s-footer__content">
-                <div class="column xl-6 lg-6 md-12 s-footer__block s-footer__about">                    
-                    <h3>Wesley Morais</h3>
-                    <p>contato@wesleymorais.com.br - (27) 99265-5533</p>
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-lamp.jpg" class="thumb-link" title="Guitarist" data-size="1050x700">
+                                <img src="images/portfolio/lamp.jpg" 
+                                     srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Lamp
+                            </h4>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-fuji.jpg" class="thumb-link" title="Palmeira" data-size="1050x700">
+                                <img src="images/portfolio/fuji.jpg"
+                                     srcset="images/portfolio/fuji.jpg 1x, images/portfolio/fuji@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Fuji
+                            </h4>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    -->
 
+    <!-- Testimonies-->
+    <section class="s-testimonials">
+        <div class="row testimonials" data-aos="fade-up">
+            <div class="column large-full testimonials__slider">
+                <div class="testimonials__slide">
+                    <p>Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
+                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque.  Nisi dolores quaerat fuga rem nihil nostrum.
+                    Laudantium quia consequatur molestias delectus culpa.</p>
+                    <div class="testimonials__info">
+                        <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
+                        <cite class="testimonials__cite">
+                            <strong>Tim Cook</strong>
+                            <span>CEO, Apple</span>
+                        </cite>
+                    </div>
                 </div>
-            </div>                
-            <div class="ss-go-top">
-                    <a class="smoothscroll" title="Back to Top" href="#top">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<polyline points="17 11 12 6 7 11"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
-                    </a>
+
+                <div class="testimonials__slide">
+                    <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
+                    Nisi eaque consequatur. Voluptatem dignissimos ut ducimus accusantium perspiciatis.
+                        Quasi voluptas eius distinctio. Atque eos maxime.</p>
+                    <div class="testimonials__info">
+                        <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
+                        <cite class="testimonials__cite">
+                            <strong>Sundar Pichai</strong>
+                            <span>CEO, Google</span>
+                        </cite>
+                    </div>
                 </div>
+
+                <div class="testimonials__slide">
+                    <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
+                    Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.
+                    Voluptatem dignissimos ut.</p>
+                    <div class="testimonials__info">
+                        <img src="images/avatars/user-04.jpg" alt="Author image" class="testimonials__avatar">
+                        <cite class="testimonials__cite">
+                            <strong>Satya Nadella</strong>
+                            <span>CEO, Microsoft</span>
+                        </cite>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="s-contact ss-dark target-section">
+
+        <div class="row heading-block" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading">Get In Touch</h2>
+            </div>
+        </div>
+
+        <div class="row contact-main" data-aos="fade-up">
+            <div class="column large-full">
+                <p class="contact-email">
+                    <a href="mailto:#0">eu@wesleymorais.com.br</a>
+                </p>
+
+                <p class="section-desc">
+                I'm happy to connect, listen and help. Let's work together and build
+                something awesome. Let's turn your idea to an even greater product.
+                <a href="mailto:#0">Email Me</a>.
+                </p>
+            </div>
+        </div>
+
+        <div class="row contact-infos" data-aos="fade-up" data-aos-anchor=".contact-main">
+
+            <div class="column large-5 medium-full contact-phone">
+                <h4>Call Me</h4>
+                <a href="tel:197-543-2345">+197 543 2345</a>
+            </div>
+
+            <div class="column large-7 medium-full contact-social">
+                <h4>Social</h4>
+                <ul>
+                    <li><a href="#0" title="Facebook">Facebook</a></li>
+                    <li><a href="#0" title="Twitter">Twitter</a></li>
+                    <li><a href="#0" title="Instagram">Instagram</a></li>
+                </ul>
+            </div>
+
+        </div> <!-- end contact-infos -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="column large-full ss-copyright">
+                <span>© Copyright Epitome 2019</span> 
+                <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
             </div>            
-        </footer>
-    </div>
 
-    <!-- Java Script-->
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 
 </body>
-</html>
