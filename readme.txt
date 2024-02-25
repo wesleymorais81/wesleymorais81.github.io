@@ -2,20 +2,18 @@
 
 DESCRIPTION:
 
-EPITOME is a beautifully crafted free resume and personal portfolio website template. It is modern, 
-trendy and features a visually attractive design. An ideal website template for creative 
-professionals and freelancers who want to create an online presence that would stand out from 
-the average. Epitome has all the important elements of an effective resume personal portfolio 
-website template: an awesome fullscreen hero banner, about and qualification section, services, 
-portfolio, testimonial and contact section. Epitome is also mobile and retina ready. 
-It will look great on any devices from mobile to desktop and on any screen resolutions.
+MONICA is a carefully crafted and modern HTML website template designed for freelancers, social 
+media managers, and marketing consultants who help businesses and companies improve their online 
+presence and establish long-lasting relationships with their communities. It is an excellent tool 
+for telling people about your skills and credentials, services, and other offerings, giving them 
+a better idea of who you are.
 
 ==================================================================================================
 
 
 LICENSE:
 
-This free resource is provided by Styleshout.com and is free to use in 
+This free resource is provided by styleshout.com and is free to use in 
 both personal and commercial projects.
 
 
@@ -72,23 +70,47 @@ Also, keep your Paypal receipt as proof of payment and your good to go.
 
 SUPPORT:
     
-Since EPITOME is distributed for free, support is not offered. EPITOME is coded according 
+Since MONICA is distributed for free, support is not offered. MONICA is coded according 
 to current web standards and we did our best to make the template easy to use and modify.
 If you have minimum web development experience, you can easily modify the template. 
 However, If you're still new to HTML and CSS, I suggest that you visit the 
 following tutorials:
 
- - https://webdesign.tutsplus.com/courses/30-days-to-learn-html-css
+ - https://marksheet.io/
  - http://learn.shayhowe.com/html-css/
 
 These will teach you the essentials of HTML and CSS. In addition, if you want to include
-jQuery in your skill-set, you can also check out these tutorials: 
+javascript in your skill-set, you can also check out these tutorials: 
 
- - https://code.tutsplus.com/courses/30-days-to-learn-jquery
- - http://try.jquery.com/
+ - https://www.codecademy.com/learn/introduction-to-javascript
+ - https://javascript.info/
+
 
 
 ------------------------------------------------------------------------------------------------------ 
+
+
+USING THE MAILCHIMP FORM:
+
+To use the mailchimp form you need a mailchimp url. To get the mailchimp url, login to 
+your mailchimp account, click the Audience menu and select signup forms. Then choose 
+embedded forms and select unstyled form. In the generated form code get the value of 
+the form ACTION attribute and use it as your mailchimp url. Open the main.js file located
+in the template's "js" folder and look for this line of code: 
+
+const cfg = {
+
+    // MailChimp URL
+    mailChimpURL : 'https://facebook.us1.list-manage.com/subscribe/post?u=1abf75f6981256963a47d197a&amp;id=37c6d8f4d6' 
+
+};
+
+
+Replace the value of mailChimpURL with your mailchimp url.
+
+
+
+-------------------------------------------------------------------------------------------------------
 
 
 GET THE LATEST VERSION:
@@ -106,30 +128,24 @@ SOURCES AND CREDITS:
 I've used the following resources as listed.
 
 Fonts:
- - Lora Font (https://fonts.google.com/specimen/Lora)
- - Roboto Font (https://fonts.google.com/specimen/Roboto) 
- - Frank Ruhl Libre Font (https://fonts.google.com/specimen/Frank+Ruhl+Libre)
+ - DM Serif Display Font (https://fonts.google.com/specimen/DM+Serif+Display)
+ - Roboto Flex Font (https://fonts.google.com/specimen/Roboto+Flex)
 
 Icons:
- - Font Awesome (https://fontawesome.com/)
- - Iconmonstr (https://iconmonstr.com/)
- 
+ - Boxicons (https://boxicons.com/)
+ - Atomicons (https://atomicons.com/)
 
 Stock Photos and Graphics:
  - Unsplash.com (https://unsplash.com/)
  
 Javascript Files:
- - JQuery (http://jquery.com/)
- - Modernizr (http://modernizr.com/)
- - Masonry JS (https://masonry.desandro.com/)
- - ImagesLoaded (https://imagesloaded.desandro.com/)
- - Slick slider (http://kenwheeler.github.io/slick/)
- - Animate On Scroll (https://michalsnik.github.io/aos/)
- - Pace JS (https://github.hubspot.com/pace/docs/welcome/)
+ - MoveTo.js (https://github.com/hsnaydd/moveTo)
+ - Prism.js (https://prismjs.com/)
+ - Swiper JS (https://swiperjs.com/)
 
 -------------------------------------------------------------------------------------------------------
 
 
-Thanks for downloading from Styleshout :)
+Thanks for downloading from StyleShout :)
 
 
