@@ -104,7 +104,7 @@ a:active {
  * 
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 500;
   font-style: normal;
   color: #03071E;
@@ -1909,7 +1909,7 @@ input::-moz-focus-inner {
   width: 100%;
   height: 100vh;
   min-height: 792px;
-  background-color: #050505;
+  background-color: #0B090A;
 }
 
 .intro-content {
@@ -1923,7 +1923,7 @@ input::-moz-focus-inner {
 }
 
 .intro-pic {
-  background-color: #03071E;
+  background-color: #0B090A;
   background-repeat: no-repeat;
   background-position: top center;
   background-image: url(../images/hero-pic.jpg);
@@ -1942,14 +1942,14 @@ input::-moz-focus-inner {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #03071E;
+  background-color: #0B090A;
   opacity: .4;
 }
 
 .intro-grid {
   background-image: url(../images/pattern-dot-grid.svg);
   background-size: 24px 24px;
-  opacity: .10;
+  opacity: .1;
   position: absolute;
   top: 30%;
   right: 0;
@@ -1965,19 +1965,20 @@ input::-moz-focus-inner {
 }
 
 .intro-text h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 2.4rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.333;
   color: #F48C06;
+  
   margin-top: 0;
 }
 
 .intro-text h1 {
-  font-size: 7.8rem;
-  font-weight: 500;
+  font-size: 6rem;
+  font-weight: 400;
   line-height: 1.179;
-  color: #ffffff;
+  color: #F8F9FA;
   margin-top: 0;
 }
 
