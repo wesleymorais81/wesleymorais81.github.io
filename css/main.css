@@ -1949,8 +1949,8 @@ input::-moz-focus-inner {
 
 .intro-grid {
   background-image: url(../images/pattern-dot-grid.svg);
-  background-size: 500px 500px;
-  opacity: .5;
+  background-size: 24px 24px;
+  opacity: .10;
   position: absolute;
   top: 30%;
   right: 0;
