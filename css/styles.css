@@ -138,8 +138,8 @@
      * Tint & Shade Generator 
      * (https://maketintsandshades.com/)
      */
-    --color-black                  : #000000;
-    --color-gray-19                : #161616;
+    --color-black                  : #0B090A;
+    --color-gray-19                : #161A1D;
     --color-gray-18                : #2c2c2c;
     --color-gray-17                : #424241;
     --color-gray-16                : #585857;
@@ -159,6 +159,12 @@
     --color-gray-2                 : #f8f8f8;
     --color-gray-1                 : #fcfbfb;
     --color-white                  : #ffffff;
+
+    --color-red-1                  : #660708;
+    --color-red-2                  : #A4161A;
+    --color-red-3                  : #BA181B;
+    --color-red-4                  : #E5383B;
+    --color-red-5                  : #B1A7A6;
 
     /* text
      */
@@ -184,9 +190,9 @@
 
     /* preloader
      */
-    --color-preloader-bg           : var(--color-gray-19);
+    --color-preloader-bg           : var(--color-red-1);
     --color-loader                 : white;
-    --color-loader-light           : rgba(255, 255, 255, 0.1);
+    --color-loader-light           : rgba(229, 59, 59, 0.1);
 
     /* others
      */
@@ -242,7 +248,7 @@
      * --text-xl        = (31.10px)
      * --text-lg        = (25.92px)
      * --text-md        = (21.60px)
-     * --text-size      = (18.00px) BASE
+     * --text-size      = (18.00px) **
      * --text-sm        = (15.00px)
      * --text-xs        = (12.50px)
      *
@@ -1893,8 +1899,8 @@ img,
 }
 
 #loader {
-    width   : var(--vspace-1_5);
-    height  : var(--vspace-1_5);
+    width   : var(--vspace-3);
+    height  : var(--vspace-3);
     padding : 0;
     opacity : 1;
 }
@@ -3030,7 +3036,7 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 .s-header {
     --header-height  : 80px;
-    --logo-width     : 40px;
+    --logo-width     : 60px;
     z-index          : 100;
     background-color : transparent;
     height           : var(--header-height);
@@ -3371,7 +3377,7 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-intro {
-    --content-padding-top    : 20vh;
+    --content-padding-top    : 18vh;
     --content-padding-bottom : 9.6rem;
     z-index                  : 3;
     background-color         : #1C1C24;
@@ -3435,7 +3441,7 @@ img.u-pull-left {
  * -------------------------------------------------------------------- */
 .s-intro__content {
     z-index        : 2;
-    align-items    : flex-end;
+    align-items    : flex-start;
     max-width      : 1400px;
     height         : 100%;
     color          : white;
@@ -3450,7 +3456,7 @@ img.u-pull-left {
     background-repeat   : no-repeat;
     background-position : center;
     background-size     : cover;
-    width               : 500px;
+    width               : 650px;
     position            : absolute;
     top                 : var(--content-padding-top);
     right               : var(--gutter);
@@ -3474,7 +3480,7 @@ img.u-pull-left {
 }
 
 .s-intro__content-title {
-    --text-title-size : 8.8rem;
+    --text-title-size : 6rem;
     --text-multiplier : 1;
     font-weight       : 600;
     font-size         : calc(var(--text-title-size) * var(--text-multiplier));
@@ -3812,8 +3818,8 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-    padding-top    : var(--vspace-5);
-    padding-bottom : var(--vspace-5);
+    padding-top    : var(--vspace-2);
+    padding-bottom : var(--vspace-2);
 }
 
 /* ------------------------------------------------------------------- 
@@ -3835,8 +3841,8 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 .s-services {
     background-color : var(--color-gray-2);
-    padding-top      : var(--vspace-5);
-    padding-bottom   : var(--vspace-5);
+    padding-top      : var(--vspace-2);
+    padding-bottom   : var(--vspace-2);
 }
 
 .s-services .list-block__item {
@@ -3862,8 +3868,8 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 .s-folio {
     background-color : var(--color-gray-19);
-    padding-top      : var(--vspace-5);
-    padding-bottom   : var(--vspace-5);
+    padding-top      : var(--vspace-2);
+    padding-bottom   : var(--vspace-2);
 }
 
 /* ------------------------------------------------------------------- 
@@ -3871,8 +3877,8 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 .bricks {
     max-width     : var(--width-wide);
-    margin-top    : var(--vspace-3);
-    margin-bottom : var(--vspace-3);
+    margin-top    : var(--vspace-2);
+    margin-bottom : var(--vspace-2);
 }
 
 .bricks .masonry {
@@ -4148,7 +4154,7 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-clients {
-    padding-top : var(--vspace-2);
+    padding-top : var(--space);
 }
 
 .s-clients .section-header {
@@ -4171,7 +4177,7 @@ img.u-pull-left {
 
 .clients-list {
     position   : relative;
-    margin-top : var(--vspace-2);
+    margin-top : var(--vspace);
     border-top : 1px solid rgba(255, 255, 255, 0.05);
 }
 
@@ -4184,7 +4190,7 @@ img.u-pull-left {
 
 .clients-list__item a {
     display    : block;
-    padding    : var(--vspace-0_75) var(--vspace-0_75);
+    padding    : var(--vspace-0_5) var(--vspace-0_5);
     transition : all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
@@ -4201,7 +4207,7 @@ img.u-pull-left {
 .clients-list__item img {
     margin     : 0;
     transition : all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
-    opacity    : .5;
+    opacity    : .6;
 }
 
 .clients-list__item:nth-child(n) {
@@ -4283,12 +4289,13 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-testimonials {
-    padding-top    : var(--vspace-4_5);
-    padding-bottom : var(--vspace-4);
+
+    padding-top    : var(--vspace-2);
+    padding-bottom : var(--vspace-1);
 }
 
 .s-testimonials .swiper-container {
-    padding-bottom : var(--vspace-2);
+    padding-bottom : var(--vspace-1);
 }
 
 /* ------------------------------------------------------------------- 
@@ -4327,7 +4334,7 @@ img.u-pull-left {
 }
 
 .s-testimonials__cite strong {
-    font-size   : calc(var(--text-size) * 0.9444);
+    font-size   : calc(var(--text-size) * 1.2);
     font-weight : 500;
     line-height : var(--vspace-0_75);
     color       : var(--color-text-dark);
@@ -4335,7 +4342,7 @@ img.u-pull-left {
 
 .s-testimonials__cite span {
     display     : block;
-    font-size   : var(--text-xs);
+    font-size   : var(--text-sm);
     font-weight : 400;
     line-height : var(--vspace-0_5);
     color       : var(--color-text-light);
@@ -4372,9 +4379,9 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-footer {
-    background-color : var(--color-gray-2);
-    padding-top      : calc(5.5 * var(--space));
-    padding-bottom   : var(--vspace-3);
+    background-color : var(--color-gray-4);
+    padding-top      : var(--vspace-2);
+    padding-bottom   : var(--vspace);
     margin-top       : auto;
     position         : relative;
 }
@@ -4384,7 +4391,7 @@ img.u-pull-left {
 }
 
 .s-footer__btns {
-    margin-top  : var(--vspace-3_5);
+    margin-top  : var(--vspace-2);
     align-items : flex-start;
 }
 
