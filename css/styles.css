@@ -3601,14 +3601,14 @@ img.u-pull-left {
 .s-intro__content-buttons,
 .s-intro__scroll-down {
     transition-timing-function : cubic-bezier(0.28, 0.12, 0.22, 1);
-    transition-duration        : .8s;
+    transition-duration        : .6s;
     transition-delay           : 0s;
     opacity                    : 0;
 }
 
 .s-header__inner,
 .s-intro__bg {
-    transition-duration : .6s;
+    transition-duration : .4s;
 }
 
 .s-header__inner {
@@ -4342,7 +4342,7 @@ img.u-pull-left {
 
 .s-testimonials__cite span {
     display     : block;
-    font-size   : var(--text-sm);
+    font-size   : var(--t);
     font-weight : 400;
     line-height : var(--vspace-0_5);
     color       : var(--color-text-light);
